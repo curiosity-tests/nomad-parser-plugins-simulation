@@ -8,8 +8,6 @@ on:
     - develop
     tags:
     - '*'
-  schedule:
-  - cron: '0 2 * * *'
   workflow_dispatch:
     inputs:
       leg:
